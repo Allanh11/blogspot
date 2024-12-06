@@ -1,5 +1,5 @@
 body {
-    color: deeppink;
+    color: blak;
     text-align: center;
     font-family: "Arial";
     font-size: 16px;
@@ -9,12 +9,34 @@ body {
 
 #container {
     width: 70%;
-    padding: 1em;
+    background-color: ;
     text-align: left;
     border: 1px solid black;
     margin: 0 auto;
 }
 
+#cabecera {
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: rgb(58, 58, 236);
+    border: 1px solid black;
+    align-content: center;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 32px;
+    font-weight: bold;
+    box-shadow: -4px 12px 49px -19px rgba(0,0,0,0.75);
+}
+
+#tagline {
+    font-size: large;
+}
+
 #container h1 {
     font-size: 24px;
+}
+
+#post {
+    padding: 12px;
 }
